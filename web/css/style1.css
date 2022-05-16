@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #8CC3A9;
+}
+
+.wrapper {
+    background: white;
+    padding: 30px 15px;
+    width: 370px;
+}
+
+.wrapper .title {
+    border-left: 5px solid #8CC3A9;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.input-field .input-label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.input-field .input {
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.3s all ease;
+}
+
+.input-field .input:focus {
+    border-color: #8CC3A9;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    background: #8CC3A9;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: 0.3s all ease;
+}
+
+.btn:hover, .btn:focus {
+    background: transparent;
+    border-color: #8CC3A9;
+    color: #8CC3A9;
+}
+
+.wrapper .form p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.wrapper .form p a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s all ease;
+}
+
+.wrapper .form p a:focus, .wrapper .form p a:hover {
+    color: #8CC3A9;
+}
